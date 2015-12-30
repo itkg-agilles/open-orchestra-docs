@@ -33,7 +33,7 @@ The `libvirt`_ plugin should be added to vagrant
 Launch the box
 ~~~~~~~~~~~~~~
 
-Once those installation have been performed, if you have imported the right base box, you could launch
+Once those installations have been performed, if you have imported the right base box, you could launch
 your box with :
 
 .. code-block:: bash
