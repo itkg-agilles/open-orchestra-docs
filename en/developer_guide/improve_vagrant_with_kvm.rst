@@ -18,7 +18,7 @@ You need to install all the packages for the vagrant plugin, and to allow `KVM`_
 
 .. code-block:: bash
 
-    $ aptitude install libxslt-dev libxml2-dev libvirt-dev zlib1g-dev qemu-utils libvirt-dev qemu-kvm
+    $ aptitude install libxslt-dev libxml2-dev libvirt-dev zlib1g-dev qemu-utils libvirt-dev libvirt-bin qemu-kvm
     $ gem install ruby-libvirt -v '0.6.0'
 
 Vagrant plugin installation
