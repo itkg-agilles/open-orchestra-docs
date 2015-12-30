@@ -33,6 +33,7 @@ Developer guide
 
 * `Install`_
 * `Install with vagrant`_
+* `Improve vagrant with KVM`_
 * Development
 * `Dependancy diagram`_
 * `Bundle configuration`_
@@ -132,6 +133,7 @@ Hosting guide
 .. _`Bundle configuration`: /en/developer_guide/bundle_configuration.rst
 .. _`Install with vagrant`: /en/developer_guide/install_with_vagrant.rst
 .. _`Add a navigation panel entry`: /en/developer_guide/navigation_panel.rst
+.. _`Improve vagrant with KVM`: /en/developer_guide/improve_vagrant_with_kvm.rst
 .. _`Use a specific backbone view`: /en/developer_guide/specific_backbone_view.rst
 .. _`Add a special listener to a Content field`: /en/developer_guide/content_add_field_listener.rst
 .. _`Use the ajax pagination for the entities list`: /en/developer_guide/entity_list_ajax_pagination.rst
