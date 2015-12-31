@@ -24,8 +24,8 @@ You need to install all the packages for the vagrant plugin, and to allow `KVM`_
 Change images location (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following step is optional but you may want to change the `libvirt` default images storage location which is set
-to `/var/lib/libvirt/images` to somewhere else in order to save space in the `/var` directory especially if `/var`
+The following step is optional but you may want to change the ``libvirt`` default images storage location which is set
+to ``/var/lib/libvirt/images`` to somewhere else in order to save space in the ``/var`` directory especially if ``/var``
 is on a dedicated partition.
 
 .. code-block:: bash
@@ -33,7 +33,7 @@ is on a dedicated partition.
     $ cd /etc/libvirt/storage
     $ virsh pool-edit default
 
-Now, you must change the old path to images in the `path` tag to the new one and save.
+Now, you must change the old path to images in the ``path`` tag to the new one and save.
 
 .. code-block:: xml
 
@@ -61,7 +61,7 @@ The following message is displayed:
 
     Pool default XML configuration edited.
 
-Then you have to restart the `libvirt` daemon.
+Then you have to restart the ``libvirt`` daemon.
 
 .. code-block:: bash
 
