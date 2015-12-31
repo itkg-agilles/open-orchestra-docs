@@ -21,6 +21,52 @@ You need to install all the packages for the vagrant plugin, and to allow `KVM`_
     $ aptitude install libxslt-dev libxml2-dev libvirt-dev zlib1g-dev qemu-utils libvirt-dev libvirt-bin qemu-kvm
     $ gem install ruby-libvirt -v '0.6.0'
 
+Change images location (optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following step is optional but you may want to change the `libvirt` default images storage location which is set
+to `/var/lib/libvirt/images` to somewhere else in order to save space in the `/var` directory especially if `/var`
+is on a dedicated partition.
+
+.. code-block:: bash
+
+    $ cd /etc/libvirt/storage
+    $ virsh pool-edit default
+
+Now, you must change the old path to images in the `path` tag to the new one and save.
+
+.. code-block:: xml
+
+    <pool type='dir'>
+        <name>default</name>
+        <uuid>8712914f-3330-474f-8766-096761b1c3c2</uuid>
+        <capacity unit='bytes'>463178629120</capacity>
+        <allocation unit='bytes'>111961907200</allocation>
+        <available unit='bytes'>351216721920</available>
+        <source>
+        </source>
+        <target>
+        <path>/your/new/path/to/images</path>
+        <permissions>
+          <mode>0755</mode>
+          <owner>-1</owner>
+          <group>-1</group>
+        </permissions>
+        </target>
+    </pool>
+
+The following message is displayed:
+
+.. code-block:: bash
+
+    Pool default XML configuration edited.
+
+Then you have to restart the `libvirt` daemon.
+
+.. code-block:: bash
+
+    $ /etc/init.d/libvirtd restart
+
 Vagrant plugin installation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
