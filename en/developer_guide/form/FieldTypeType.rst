@@ -23,9 +23,6 @@ The FieldTypeType form is used to manage field type in back office.
 | **Event subscriber**              | FieldTypeTypeSubscriber                          |
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * fieldId        (text)                          |
 |                                   | * labels         (oo_translated_value_collection)|
 |                                   | * type           (choice)                        |

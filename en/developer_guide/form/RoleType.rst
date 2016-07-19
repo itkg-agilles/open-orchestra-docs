@@ -18,13 +18,6 @@ The RoleType form is used to create a workflow role in Back Office.
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options FormType                    |
 |                                   |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **Event subscriber**              |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * name         (text)                            |
 |                                   | * descriptions (oo_translated_value_collection)  |
@@ -37,11 +30,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

@@ -8,9 +8,9 @@ The TranslatedValueCollectionType form is used to create a collection of transla
 +-----------------------------------+--------------------------------------------------+
 | **Bundle**                        | OpenOrchestraBackofficeBundle                    |
 +-----------------------------------+--------------------------------------------------+
-| **Name**                          | oo_translated_value_collection                                         |
+| **Name**                          | oo_translated_value_collection                   |
 +-----------------------------------+--------------------------------------------------+
-| **Class**                         | TranslatedValueCollectionType                                        |
+| **Class**                         | TranslatedValueCollectionType                    |
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Parent type**                   | collection                                       |
@@ -18,15 +18,6 @@ The TranslatedValueCollectionType form is used to create a collection of transla
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options collection                  |
 |                                   |  * type                                          |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **Event subscriber**              |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **Fields** (name, type)           |                                                  |
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 

@@ -18,12 +18,8 @@ The TemplateType form is used to manage template in Back Office.
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options FormType                    |
 |                                   |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Event subscriber**              | AreaCollectionSubscriber                         |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * name        (text)                             |
@@ -37,11 +33,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

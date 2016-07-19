@@ -3,12 +3,12 @@ ApiClientType
 =============
 
 
-The ApiClientType form is used to create a workflow role in Back Office.
+The ApiClientType form is used to create API key access in Back Office.
 
 +-----------------------------------+--------------------------------------------------+
 | **Bundle**                        | OpenOrchestraBackofficeBundle                    |
 +-----------------------------------+--------------------------------------------------+
-| **Name**                          | oo_api_client                                          |
+| **Name**                          | oo_api_client                                    |
 +-----------------------------------+--------------------------------------------------+
 | **Class**                         | ApiClientType                                    |
 |                                   |                                                  |
@@ -17,13 +17,6 @@ The ApiClientType form is used to create a workflow role in Back Office.
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options FormType                    |
-|                                   |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **Event subscriber**              |                                                  |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * name    (text)                                 |
@@ -38,11 +31,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

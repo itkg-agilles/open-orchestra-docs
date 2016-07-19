@@ -18,13 +18,6 @@ The ExistingBlockChoiceType form is used to list exiting block in some form in B
 +-----------------------------------+-----------------------------------+
 | **Options**                       |  * inherited options FormType     |
 |                                   |                                   |
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
-| **Event subscriber**              |                                   |
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
-| **View transformer**              |                                   |
-|                                   |                                   |
 +-----------------------------------+-----------------------------------+
 | **Fields** (name, type)           | * existingBlock (choice)          |
 |                                   |                                   |
@@ -35,12 +28,3 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
-
-
-Overridden Options
-==================

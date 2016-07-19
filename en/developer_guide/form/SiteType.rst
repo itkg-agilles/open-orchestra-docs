@@ -18,13 +18,9 @@ The SiteType form is used to create a web site in Back Office.
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options FormType                    |
 |                                   |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Event subscriber**              | WebSiteSubscriber                                |
 |                                   | WebSiteNodeTemplateSubscriber                    |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * name    (text)                                 |
 |                                   | * siteId  (text)                                 |
@@ -45,11 +41,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

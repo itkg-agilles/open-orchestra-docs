@@ -18,16 +18,11 @@ The NodeType form is used to contribute a node in Back Office.
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options FormType                    |
 |                                   |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Event subscriber**              | BoDirectionChildrenSubscriber                    |
 |                                   | NodeTemplateSelectionSubscriber                  |
 |                                   | NodeThemeSelectionSubscriber                     |
 |                                   | AreaCollectionSubscriber                         |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * name               (text)                      |
 |                                   | * boLabel            (text)                      |
@@ -52,11 +47,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

@@ -18,17 +18,8 @@ The KeywordType form is used to contribute a keyword in Back Office.
 +-----------------------------------+-----------------------------------+
 | **Options**                       |  * inherited options FormType     |
 |                                   |                                   |
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
-| **Event subscriber**              |                                   |
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
-| **View transformer**              |                                   |
-|                                   |                                   |
 +-----------------------------------+-----------------------------------+
 | **Fields** (name, type)           | * label       (text)              |
-|                                   |                                   |
-|                                   |                                   |
 |                                   |                                   |
 +-----------------------------------+-----------------------------------+
 
@@ -37,12 +28,3 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
-
-
-Overridden Options
-==================

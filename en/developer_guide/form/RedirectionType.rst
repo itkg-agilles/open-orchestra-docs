@@ -18,12 +18,8 @@ The RedirectionType form is used to create a redirection in Back Office.
 +-----------------------------------+--------------------------------------------------+
 | **Options**                       |  * inherited options FormType                    |
 |                                   |                                                  |
-|                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Event subscriber**              | RedirectionTypeSubscriber                        |
-|                                   |                                                  |
-+-----------------------------------+--------------------------------------------------+
-| **View transformer**              |                                                  |
 |                                   |                                                  |
 +-----------------------------------+--------------------------------------------------+
 | **Fields** (name, type)           | * siteId       (oo_site_choice)                  |
@@ -39,11 +35,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

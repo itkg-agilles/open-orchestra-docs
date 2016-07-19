@@ -18,7 +18,6 @@ The AreaType form is used to parameter a area in Back Office.
 +-----------------------------------+-----------------------------------+
 | **Options**                       |  * inherited options FormType     |
 |                                   |                                   |
-|                                   |                                   |
 +-----------------------------------+-----------------------------------+
 | **Event subscriber**              | AreaCollectionSubscriber          |
 |                                   |                                   |
@@ -37,11 +36,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options

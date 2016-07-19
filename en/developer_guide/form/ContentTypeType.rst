@@ -18,12 +18,8 @@ The ContentTypeType form is used to contribute a content type in Back Office.
 +-----------------------------------+-----------------------------------------+
 | **Options**                       |  * inherited options FormType           |
 |                                   |                                         |
-|                                   |                                         |
 +-----------------------------------+-----------------------------------------+
 | **Event subscriber**              | ContentTypeTypeSubscriber               |
-|                                   |                                         |
-+-----------------------------------+-----------------------------------------+
-| **View transformer**              |                                         |
 |                                   |                                         |
 +-----------------------------------+-----------------------------------------+
 | **Fields** (name, type)           | * contentTypeId        (text)           |
@@ -39,11 +35,6 @@ Inherited Options:
 ==================
 
  Options inherit from the `FormType <http://symfony.com/doc/current/reference/forms/types/form.html>`_
-
-
-Options:
-========
-
 
 
 Overridden Options
